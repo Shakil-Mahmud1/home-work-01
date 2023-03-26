@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+	font-family: 'Work Sans', sans-serif;
+}
+/* header section style */
+#header-bg{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 1140px;
+    padding: 0px 15px;
+    margin: auto;
+}
+.header-content {
+    padding: 283px 0;
+    text-align: right;
+    overflow: hidden;
+}
+
+.header-title {
+    width: 50%;
+    font-size: 60px;
+    color: #ffffff;
+    position: relative;
+    translate: 100%;
+    margin-bottom: 25px;
+    line-height: 80px;
+    word-spacing: 10px;
+}
+
+.header-discription {
+    width: 33%;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 22px;
+    position: relative;
+    translate: 202%;
+    margin-bottom: 30px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    word-spacing: 2px;
+}
+
+.btn-primary{
+    padding: 15px 28px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0061B2;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Onather section*/
+.failuers {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    justify-content: unset;
+    margin: 150px 0;
+}
+
+.failuers-content {
+    padding-top: 130px;
+    text-align: left;
+}
+
+.fail-title {
+    width: 70%;
+    font-size: 40px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.fail-disc {
+    width: 94%;
+    font-size: 15px;
+    color: #444343;
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+ul.fail-list {
+    list-style: none;
+}
+
+ul.fail-list li img {
+    display: inline-block;
+     margin-right: 10px;
+}
+
+ul.fail-list li {
+    color: #444343;
+    margin-bottom: 5px;
+}
