@@ -103,3 +103,45 @@ ul.fail-list li {
     color: #444343;
     margin-bottom: 5px;
 }
+/* My plans section styles */
+h1.my-plans-title {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.plans-box img {
+    margin-bottom: 15px;
+}
+
+.plans-box h2 {
+    margin-bottom: 10px;
+}
+
+.plans-box h5 {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.plan-banner{
+    background-image: linear-gradient(#035fa940,#035fa9c4),url(../images/watch.png);
+    padding: 50px 0px 50px 50px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.plan-banner h2 {
+    color: #ffffff;
+    font-size: 38px;
+    width: 42%;
+    margin-bottom: 25px;
+}
