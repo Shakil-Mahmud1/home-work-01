@@ -145,3 +145,28 @@ h1.my-plans-title {
     width: 42%;
     margin-bottom: 25px;
 }
+h1.bubas-title {
+    font-size: 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bonus-box {
+    padding: 150px 120px;
+    width: 50%;
+    margin: auto;
+    background-color: #0089D7;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.bonus-box p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
