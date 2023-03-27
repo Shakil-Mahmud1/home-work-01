@@ -170,3 +170,79 @@ h1.bubas-title {
     text-align: center;
     margin: auto;
 }
+/* footer style */
+#footer-bg{
+    background-color: #151414;
+}
+.contact-info {margin-top: 100px;width: 70%;}
+
+.foo-main {
+    display: flex;
+}
+
+h2.foo-title {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+p.cantact-disc {
+    width: 50%;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+p.foo-email {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+p.foo-phone {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+ul.footer-icon {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+ul.footer-icon il a {
+    text-decoration: none;
+}
+
+.btn-subscribe{
+    background-color: #005FAC;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 15px 28px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 45%;
+}
+.subscribe {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;}
+
+h2.subscribe-title {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    width: 95%;
+    margin-bottom: 16px;
+    padding: 20px;
+    background-color: #151414;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 18px;
+}
